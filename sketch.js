@@ -58,6 +58,7 @@ drawHourKey();
   drawGrowingLines(s, m, palette[h12Idx]);
 
   pop();
+  console.log('time:', hour(), minute(), second());
 }
 
 
